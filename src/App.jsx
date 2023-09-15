@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import Vision from "./Components/Vision";
-import Initiatives from "./Components/Initiatives";
-import Footer from "./Components/Footer";
-import Contact from "./Components/Contact";
+import Venue from "./Components/Venue";
+import Prizes from "./Components/Prizes";
+import Counter from "./Components/Counter";
+import About from "./Components/About";
+
 
 
 function App() {
@@ -12,10 +13,11 @@ function App() {
     <div>
      <Navbar />
      <Home />
-     <Vision />
-     <Initiatives />
-     <Contact />
-     <Footer />
+     <Counter />
+     <About />
+     <Venue />
+     <Prizes />
+ 
     </div>
   );
 }

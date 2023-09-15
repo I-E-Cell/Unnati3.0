@@ -1,20 +1,42 @@
-import React from 'react';
-import Mglass from "../assets/magnifying-glass.png"
-import { AiOutlineArrowUp } from "react-icons/ai";
+import React from 'react'
+import circle from '../assets/home_circle.svg'
+import u from '../assets/uu.svg'
+import n1 from '../assets/nn1.svg'
+import n2 from '../assets/nn2.svg'
+import a from '../assets/aa.svg'
+import t from '../assets/tt.svg'
+import i from '../assets/ii.svg'
+import ellipse from '../assets/ellipse.svg'
+import orange from '../assets/orange(3).svg'
+
+
 
 
 const Home = () => {
     return (
-        <div id='home'  className='scroll-smooth bg-[#906ED6] w-[100%] h-[600px] lg:h-[100vh] sm:h-[600px] md:h-[700px] '>
-            <div className='text-[35px] sm:text-[50px] lg:text-[100px] md:text-[65px] text-white font-bold absolute sm:right-10 top-[30%] text-center'>
-                <h1>INNOVATI<span className='text-[40px] sm:text-[55px] lg:text-[115px] md:text-[70px]' >ON & </span><br /> ENTREPRENE<span className='text-[44px] sm:text-[55px] lg:text-[115px] md:text-[70px]'>URSH</span>IP <br /> <span className='z-10'> CELL</span></h1>
-            
-            <img className='absolute top-[-4.8vh] right-[1vh] sm:w-[50%] sm:top-[-5vh] lg:top-[-14vh] md:top-[-7vh] lg:right-[5vh] md:right-[5vh] sm:right-[5vh] w-[53%]' src={Mglass} alt="" />
+        <div>
+            <div className='absolute my-[-55px]'>
+                <img src={circle} alt="" />
+
+            </div>
+            <div className='relative top-[110px] rounded-2xl justify-center text-center items-center  mx-auto bg-white/20 backdrop-blur-md  w-[86%] h-[34em] sm:h-[36em]'>
+                <div className='relative flex bg-transparent justify-center py-[220px]  md:py-[210px]   gap-2 sm:gap-5'>
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl ' src={u} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={n1} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={n2} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={a} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={t} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={i} alt="" />
+
+                </div>
+                {/* <div className='absolute -z-20 top-[-43em] w-[100em] left-[-41em] bg-transparent '>
+                    <img className=' bg-transparent' src={ellipse} alt="" />
+                </div>
+                <div className='absolute top-[5em] -z-10 w-[20em] left-[3.5em]  bg-transparent '>
+                    <img className=' bg-transparent' src={orange} alt="" />
+                </div> */}
             </div>
 
-            <div className=' fixed w-12 h-8 bg-[#1E1E1E] border-white border-2 bottom-3 rounded-2xl right-4'>
-              <a href="#home"> <AiOutlineArrowUp  color='white' size={22} className='mx-auto my-[6%]'/></a> 
-            </div>
 
         </div>
     )

@@ -4,46 +4,18 @@
 
 *{
     scroll-behavior: smooth;
+    background-color: #040023;
 }
 
 /* ///-----------Contact section inputs------------------/// */
-.boxx{
-    box-shadow: 5px 5px #A06EE0;
-    text-indent: 20px;
-}
-.name{
-    pointer-events: none;
-    transition: 0.3s;
-    
-}
-/* .input:focus + .name{
-    
-    top: -30px;
 
-    color: #A06EE0;
-     */
-/* } */
-*:focus {
-    outline: none;
-}
-
-
-
-.react-multi-carousel-list  {
-    position: relative;
-    padding-bottom: 50px;
-    padding-left: 150px;
-    
-
-}
-.custom-dot-list-style button{
-    border: #A06EE0;
-    background: #A06EE0;
-    }
-
-.init{
-    background-image: url(../src/assets/Rectangle.png);
+/* .prizes{
+    background-image: url(./assets/Group5.png);
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    
+} */
+.inner{
+    box-shadow: 0 -10px 20px -5px rgba(255, 251, 39, 0.75),
+                10px 0 20px -5px rgba(255, 251, 39, 0.75);
 }
