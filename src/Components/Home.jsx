@@ -12,22 +12,25 @@ import orange from '../assets/orange(3).svg'
 
 
 
+
 const Home = () => {
     return (
         <div>
-            <div className='absolute my-[-55px]'>
+            <div className='absolute z-10 my-[-55px]'>
                 <img src={circle} alt="" />
 
             </div>
-            <div className='relative top-[110px] rounded-2xl justify-center text-center items-center  mx-auto bg-white/20 backdrop-blur-md  w-[86%] h-[34em] sm:h-[36em]'>
+            {/* <div className='relative top-[110px] rounded-2xl justify-center text-center items-center  mx-auto bg-white/20 backdrop-blur-md  w-[86%] h-[34em] sm:h-[36em]'> */}
+                <div className='pt-20 z-0'>
                 <div className='relative flex bg-transparent justify-center py-[220px]  md:py-[210px]   gap-2 sm:gap-5'>
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl ' src={u} alt="" />
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={n1} alt="" />
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={n2} alt="" />
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={a} alt="" />
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={t} alt="" />
-                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] hover:shadow-xl' src={i} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={u} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={n1} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={n2} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={a} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={t} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={i} alt="" />
 
+                </div>
                 </div>
                 {/* <div className='absolute -z-20 top-[-43em] w-[100em] left-[-41em] bg-transparent '>
                     <img className=' bg-transparent' src={ellipse} alt="" />
@@ -35,7 +38,7 @@ const Home = () => {
                 <div className='absolute top-[5em] -z-10 w-[20em] left-[3.5em]  bg-transparent '>
                     <img className=' bg-transparent' src={orange} alt="" />
                 </div> */}
-            </div>
+            {/* </div> */}
 
 
         </div>
