@@ -5,6 +5,7 @@
 *{
     scroll-behavior: smooth;
     background-color: #040023;
+
 }
 
 /* ///-----------Contact section inputs------------------/// */
@@ -30,3 +31,5 @@
   .glow:hover {
     filter: drop-shadow(0 0 45px #12E7D3); 
   }
+
+  

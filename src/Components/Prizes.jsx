@@ -1,12 +1,14 @@
 import React from 'react'
 import second from '../assets/second.png'
 import first from '../assets/first.png'
-import third from '../assets/third.png'
+
 
 
 const Prizes = () => {
+
+ 
   return (
-    <div className='prizes '>
+    <div className='prizes z-10' >
       <div>
         <div className='relative -left-[80px] sm:left-0 md:flex md:flex-row  flex-col justify-around mx-32 top-[280px] py-14'>
 

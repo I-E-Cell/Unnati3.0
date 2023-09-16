@@ -14,6 +14,7 @@ import orange from '../assets/orange(3).svg'
 
 
 const Home = () => {
+    
     return (
         <div>
             <div className='absolute z-10 my-[-55px]'>
