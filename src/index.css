@@ -5,6 +5,7 @@
 *{
     scroll-behavior: smooth;
     background-color: #040023;
+    
 }
 
 /* ///-----------Contact section inputs------------------/// */
@@ -34,4 +35,6 @@
   background-image: url(./assets/pbg.png);
   background-position: center;
   background-repeat: no-repeat;
+  
+  
 }
