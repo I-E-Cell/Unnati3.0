@@ -30,3 +30,8 @@
   .glow:hover {
     filter: drop-shadow(0 0 45px #12E7D3); 
   }
+.prizes{
+  background-image: url(./assets/pbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
