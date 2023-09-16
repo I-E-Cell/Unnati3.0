@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div>
             <div className='absolute z-10 my-[-55px]'>
-                <img src={circle} alt="" />
+                <img src={circle} alt="" /> 
 
             </div>
             {/* <div className='relative top-[110px] rounded-2xl justify-center text-center items-center  mx-auto bg-white/20 backdrop-blur-md  w-[86%] h-[34em] sm:h-[36em]'> */}
