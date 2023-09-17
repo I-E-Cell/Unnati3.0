@@ -11,42 +11,61 @@ const Counter = () => {
 
 
 
-
-
     const animationClientsCount = () => {
-        animate(0, 16, {
-            duration: 1,
-            onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+        const animation = animate(clientCount.current, 16, {
+          duration: 1,
+          onUpdate: (v) => {
+            clientCount.current.textContent = v.toFixed();
+            if (v >= 16) {
+              animation.stop();
+            }
+          },
         });
-    }
-    const animationWinnerCount = () => {
-        animate(0, 3, {
-            duration: 1,
-            onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+      };
+    
+      const animationWinnerCount = () => {
+        const animation = animate(winnerCount.current, 3, {
+          duration: 1,
+          onUpdate: (v) => {
+            winnerCount.current.textContent = v.toFixed();
+            if (v >= 3) {
+              animation.stop();
+            }
+          },
         });
-    }
-
-    const animationProjectCount = () => {
-        animate(0, 500, {
-            duration: 2,
-            onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
+      };
+    
+      const animationProjectCount = () => {
+        const animation = animate(projectCount.current, 500, {
+          duration: 2,
+          onUpdate: (v) => {
+            projectCount.current.textContent = v.toFixed();
+            if (v >= 500) {
+              animation.stop();
+            }
+          },
         });
-    }
-    const animationPrizeCount = () => {
-        animate(0, 20000, {
-            duration: 2,
-            onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
+      };
+    
+      const animationPrizeCount = () => {
+        const animation = animate(prizeCount.current, 20000, {
+          duration: 2,
+          onUpdate: (v) => {
+            prizeCount.current.textContent = v.toFixed();
+            if (v >= 20000) {
+              animation.stop();
+            }
+          },
         });
-    }
-
+      };
 
 
     return (
-        <div className='text-white  mx-64 pt-[130px] gap-4  flex md:flex-row flex-col justify-evenly'>
+        <div className='relative  text-white left-[-140px] md:left-[0px] mx-64 pt-[130px] gap-4  flex md:flex-row flex-col justify-evenly'>
 
             <div className='rounded-xl  mx-auto  w-[150px] h-[100px]  justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
-                    +<motion.span className='relative    bg-transparent  text-3xl' ref={projectCount} whileInView={animationProjectCount}>500</motion.span>
+                    +<motion.span className='relative    bg-transparent  text-3xl' ref={projectCount} whileInView={animationProjectCount}>0</motion.span>
                 </div>
                 <div className='relative text-sm mx-auto bg-transparent top-7 text-centre'>
                     <h3 className='text-sm  font-thin bg-transparent top-6'>Teams Registered</h3>

@@ -10,6 +10,7 @@ import Photos from "./Components/Photos";
 
 
 
+
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
      <Prizes />
      <Videos />
      <Photos />
+     
  
     </div>
   );

@@ -13,7 +13,7 @@ const Prizes = () => {
 
       <div className='h-[80%]' style={{ backgroundImage: `url(${gridImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'  }}>
 
-        <div className='text-white lg:text-5xl px-20 md:text-4xl sm:text-3xl text-2xl pt-2 bg-transparent'>Prizes ...</div>
+        <div className='text-white lg:text-5xl mx-auto justify-center text-center md:text-4xl sm:text-3xl text-2xl pt-2 shadow-2xl font-semibold  bg-transparent'><h1 className='heading bg-transparent'>PRIZES</h1></div>
         <div className='relative bg-transparent -left-[80px] sm:left-0 md:flex md:flex-row  flex-col justify-around mx-32  py-14'>
 
           <div className='bg-transparent mt-40 '>

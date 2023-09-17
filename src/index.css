@@ -39,6 +39,11 @@
 }
 .shadoww{
   
-    box-shadow: inset 7px 7px 7px #7e7e7e;
+    box-shadow: inset 2px 2px 2px #7e7e7e;
+  
+}
+.heading{
+  
+    text-shadow: 2px 3px 0px #707070;
   
 }
