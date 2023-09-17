@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className='absolute z-10 my-[-55px]'>
+            <div className='absolute z-10 md:my-[-55px]'>
                 <img src={circle} alt="" />
 
             </div>
@@ -34,22 +34,23 @@ const Home = () => {
                             <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={t} alt="" />
                             <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={i} alt="" />
                         </div>
-                        <div className='flex gap-4 sm:mt-9 md:mt-0 mx-auto'>
+                        <div className='flex gap-4 sm:mt-9 md:mt-0 relative top-4 md:top-0 mx-auto'>
                             <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ml-8 glow' src={three} alt="" />
                             <img className='relative justify-end bg-transparent h-[20px] mt-9 md:mt-[100px] sm:h-[25px] lg:h-[40px] md:h-[35px] my-auto shadow-[#12E7D3] glow' src={dot} alt="" />
 
                             <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow ' src={zero} alt="" />
                         </div>
                     </div>
+
+                
+
+                </div>
+                <div className='flex flex-col md:flex-row my-9 mx-16  md:mx-0   sm: gap-5 md:justify-center relative top-[-140px]'>
+                <button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0   w-64 my-auto text-white  '>Register Now!</button>
+                <button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Broschure</button>
                 </div>
             </div>
-            {/* <div className='absolute -z-20 top-[-43em] w-[100em] left-[-41em] bg-transparent '>
-                    <img className=' bg-transparent' src={ellipse} alt="" />
-                </div>
-                <div className='absolute top-[5em] -z-10 w-[20em] left-[3.5em]  bg-transparent '>
-                    <img className=' bg-transparent' src={orange} alt="" />
-                </div> */}
-            {/* </div> */}
+          
 
 
         </div>

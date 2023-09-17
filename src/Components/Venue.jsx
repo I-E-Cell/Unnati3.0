@@ -14,14 +14,14 @@ const Venue = () => {
                 <div className='relative md:flex md:flex-row  flex-col justify-around mx-32 top-[80px] py-14'>
 
 
-                    <div className='w-[230px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
+                    <div className='w-[280px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
                         <img src={Card1} alt="" />
                     </div>
-                    <div className='relative w-[230px]  h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
+                    <div className='relative w-[280px]  h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
                     <img src={Card2} alt="" />
                         
                     </div>
-                    <div className='w-[230px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
+                    <div className='w-[280px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
                         <img src={Card3} alt="" />
                     </div>
                 </div>

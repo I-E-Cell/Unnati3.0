@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a className='p-4 text-white  bg-transparent px-5 border-gray-600' href="">Visit I&E Cell<br /><hr className='w-[90%]  rounded-xl my-2 mx-auto' /><br /></a>
                         <div className='bg-transparent px-3'>
                         <button className='bg-white/30 rounded-xl  h-10 w-32 my-auto text-white'>Register Now!</button>
-
+                        
                         </div>
 
 

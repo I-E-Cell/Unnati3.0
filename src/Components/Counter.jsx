@@ -61,7 +61,7 @@ const Counter = () => {
 
 
     return (
-        <div className='relative  text-white left-[-140px] md:left-[0px] mx-64 pt-[130px] gap-4  flex md:flex-row flex-col justify-evenly'>
+        <div className='relative  text-white left-[-140px] md:left-[0px] mx-64 pt-[30px] gap-4  flex md:flex-row flex-col justify-evenly'>
 
             <div className='rounded-xl  mx-auto  w-[150px] h-[100px]  justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
