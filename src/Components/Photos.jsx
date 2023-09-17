@@ -1,6 +1,6 @@
 import React from 'react'
 import unnati from '../assets/Unnati1.jpg'
-import unnati2 from '../assets/Unnati2.jpg'
+import unnati2 from '../assets/unnati2.jpg'
 import unnati3 from '../assets/Unnati3.jpg'
 import unnati4 from '../assets/Unnati4.jpg'
 
