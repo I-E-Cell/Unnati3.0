@@ -6,6 +6,7 @@ import Prizes from "./Components/Prizes";
 import Counter from "./Components/Counter";
 import About from "./Components/About";
 import Videos from "./Components/Videos";
+import Photos from "./Components/Photos";
 
 
 
@@ -19,6 +20,7 @@ function App() {
      <Venue />
      <Prizes />
      <Videos />
+     <Photos />
  
     </div>
   );

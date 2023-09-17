@@ -6,6 +6,9 @@ import n2 from '../assets/nn2.svg'
 import a from '../assets/aa.svg'
 import t from '../assets/tt.svg'
 import i from '../assets/ii.svg'
+import three from '../assets/33.svg'
+import zero from '../assets/00.svg'
+import dot from '../assets/dot.svg'
 import ellipse from '../assets/ellipse.svg'
 import orange from '../assets/orange(3).svg'
 
@@ -30,6 +33,11 @@ const Home = () => {
                     <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={a} alt="" />
                     <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={t} alt="" />
                     <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={i} alt="" />
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ml-6 glow' src={three} alt="" />
+                    <img className='relative justify-end bg-transparent h-[20px] mt-9 md:mt-[100px] sm:h-[25px] lg:h-[40px] md:h-[35px] my-auto shadow-[#12E7D3] glow' src={dot} alt="" />
+
+                    <img className='relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] glow' src={zero} alt="" />
+
 
                 </div>
                 </div>

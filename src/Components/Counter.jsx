@@ -42,9 +42,9 @@ const Counter = () => {
 
 
     return (
-        <div className='text-white pt-[250px] gap-4  flex md:flex-row flex-col justify-evenly'>
+        <div className='text-white  mx-64 pt-[130px] gap-4  flex md:flex-row flex-col justify-evenly'>
 
-            <div className='rounded-xl border-spacing-2 mx-auto border-2 border-white/40 w-[150px] h-[100px] bg-white/30 justify-center text-center '>
+            <div className='rounded-xl  mx-auto  w-[150px] h-[100px]  justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
                     +<motion.span className='relative    bg-transparent  text-3xl' ref={projectCount} whileInView={animationProjectCount}>500</motion.span>
                 </div>
@@ -52,7 +52,7 @@ const Counter = () => {
                     <h3 className='text-sm  font-thin bg-transparent top-6'>Teams Registered</h3>
                 </div>
             </div>
-            <div className='rounded-xl w-[150px] mx-auto border-spacing-2 border-2 border-white/40 h-[100px] bg-white/30 justify-center text-center '>
+            <div className='rounded-xl w-[150px] mx-auto  h-[100px]  justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
                     +<motion.span className='relative   bg-transparent  text-3xl' ref={clientCount} whileInView={animationClientsCount}>16</motion.span>
                 </div>
@@ -60,7 +60,7 @@ const Counter = () => {
                     <h3 className='text-sm  font-thin bg-transparent top-6'>Teams Registered</h3>
                 </div>
             </div> 
-            <div className='rounded-xl w-[150px] mx-auto border-spacing-2 border-2 border-white/40 h-[100px] bg-white/30 justify-center text-center '>
+            <div className='rounded-xl w-[150px] mx-auto  h-[100px] justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
                     +<motion.span className='relative   bg-transparent  text-3xl' ref={winnerCount} whileInView={animationWinnerCount}>3</motion.span>
                 </div>
@@ -69,7 +69,7 @@ const Counter = () => {
                 </div>
             </div>
 
-            <div className='rounded-xl w-[150px] mx-auto border-spacing-2 border-2 border-white/40 h-[100px] bg-white/30 justify-center text-center '>
+            <div className='rounded-xl w-[150px] mx-auto  h-[100px]  justify-center text-center '>
                 <div className='relative top-7 bg-transparent top'>
                     +<motion.span className='relative   bg-transparent  text-3xl' ref={prizeCount} whileInView={animationPrizeCount}>20000</motion.span>
                 </div>

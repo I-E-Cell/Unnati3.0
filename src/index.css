@@ -5,11 +5,6 @@
 *{
     scroll-behavior: smooth;
     background-color: #040023;
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 3f55df16e6d493994f57cfa69ace2890801990f1
 }
 
 /* ///-----------Contact section inputs------------------/// */
@@ -40,5 +35,10 @@
   background-position: center;
   background-repeat: no-repeat;
   
+  
+}
+.shadoww{
+  
+    box-shadow: inset 7px 7px 7px #7e7e7e;
   
 }

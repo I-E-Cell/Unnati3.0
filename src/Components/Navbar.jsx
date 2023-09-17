@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import unnati from "../assets/unnati.svg";
+import unnati from "../assets/unnatim.svg";
 
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
