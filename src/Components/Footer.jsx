@@ -38,12 +38,12 @@ const Footer = () => {
         </div>
         <div className='bg-transparent justify-items-end relative text-white left-0 md:left-[90px] lg:left-[140px] mt-8 '>
           <div className=' bg-transparent  flex flex-col gap-2'>
-            <h2 className='bg-transparent '>  Quick Links</h2>
-            <a className='bg-transparent text-xs' href="">Home</a>
-            <a className='bg-transparent text-xs' href="">Rules</a>
-            <a className='bg-transparent text-xs' href="">Prizes</a>
-            <a className='bg-transparent text-xs' href="">FAQ</a>
-            <a className='bg-transparent text-xs' href="">Visit I&ECell</a>
+            <h2 className='bg-transparent text-lg'>  Quick Links</h2>
+            <a className='bg-transparent text-md' href="">Home</a>
+            <a className='bg-transparent text-md' href="">Rules</a>
+            <a className='bg-transparent text-md' href="">Prizes</a>
+            <a className='bg-transparent text-md' href="">FAQ</a>
+            <a className='bg-transparent text-md' href="">Visit I&ECell</a>
 
           </div>
         </div>
