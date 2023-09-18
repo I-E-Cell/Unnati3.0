@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Venue from "./Components/Venue";
@@ -13,23 +14,32 @@ import Form from "./Components/Form";
 
 
 
-function App() {
+function LandingPage() {
   return (
     <div>
-     <Navbar />
-     <Home />
-     <Counter />
-     <About />
-     <Venue />
-     <Prizes />
-     <Videos />
-     <Photos />
-     <Form/>
-     <Faq/>
-     <Footer/>
-     
- 
+      <Navbar />
+      <Home />
+      
+      <Venue />
+      <Prizes />
+      <Counter />
+      <About />
+      <Videos />
+      <Photos />
+      <Faq />
+      <Footer />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import circle from '../assets/home_circle.svg'
 import u from '../assets/uu.svg'
 import n1 from '../assets/nn1.svg'
@@ -46,7 +47,7 @@ const Home = () => {
 
                 </div>
                 <div className='flex flex-col md:flex-row my-9 mx-16  md:mx-0   sm: gap-5 md:justify-center relative top-[-140px]'>
-                <button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0   w-64 my-auto text-white  '>Register Now!</button>
+                <Link to='/form'><button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0   w-64 my-auto text-white  '>Register Now!</button></Link>
                 <button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Broschure</button>
                 </div>
             </div>

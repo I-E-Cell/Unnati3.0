@@ -1,15 +1,17 @@
 import React from "react";
-
+import Navbar from "./Navbar";
 
 const Form = () => {
+  
  
 
     
   return (
     <div className="">
+      <Navbar/>
         
-      <form className=" p-[15%] justify-center items-center"  action="https://docs.google.com/forms/d/e/1FAIpQLSfQEOreQ8ousjMHgBPLtI_5RLdkTaqnpPKdgpW9XP8UEw-Qzg/formResponse"
-        method="post">
+      <form className=" p-[15%] justify-center items-center"  action="https://docs.google.com/forms/d/e/1FAIpQLSca4V977ujqRyG5NqUXSD22nAPlJz8kQOfTMiQ3S59GWeiTdA/formResponse"
+        method="POST">
         <div class=" relative z-0  mb-6 group">
           <input
             type="text"
@@ -90,6 +92,22 @@ const Form = () => {
             Team Leader's WhatsApp No.
           </label>
         </div>
+        <div class="relative z-0 w-full mb-6 group">
+          <input
+            type="number"
+            name="entry.1832005843"
+           
+            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            placeholder=" "
+            required
+          />
+          <label
+            for="number"
+            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+          >
+            No of Members in Team (2 or 3)
+          </label>
+        </div>
         <div className="flex flex-row justify-between">
         <div class="flex items-center mb-4">
     <input
@@ -130,22 +148,7 @@ const Form = () => {
           
         </div>
         <div class="grid md:grid-cols-2 md:gap-6">
-        <div class="relative z-0 w-full mb-6 group">
-    <input
-      type="text"
-      name="entry.1832005843"
-      
-      class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-      placeholder=" "
-      required
-    />
-    <label
-      for="member1_name"
-      class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-    >
-      No of Members in Team (2 or 3)
-    </label>
-  </div>
+     
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="text"
