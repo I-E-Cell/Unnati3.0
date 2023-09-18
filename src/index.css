@@ -15,21 +15,32 @@
     background-repeat: no-repeat;
     
 } */
+
+@keyframes glowAnimation {
+  0% {
+    filter: drop-shadow(0 0 12px #12E7D3);
+  }
+  100% {
+    filter: drop-shadow(0 0 55px #12E7D3);
+  }
+}
+
+.glow {
+  animation: glowAnimation 0.3s infinite alternate;
+}
+
+
 .inner{
     box-shadow: 0 -10px 20px -5px rgba(255, 251, 39, 0.75),
                 10px 0 20px -5px rgba(255, 251, 39, 0.75);
 }
 
 
-.glow {
-    filter: drop-shadow(0 0 2px #12E7D3); 
-    transition: filter 0.3s ease-in-out; 
-  }
 
 
-  .glow:hover {
-    filter: drop-shadow(0 0 45px #12E7D3); 
-  }
+
+
+ 
 .prizes{
   background-image: url(./assets/pbg.png);
   background-position: center;
