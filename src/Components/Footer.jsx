@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart } 
 
 const Footer = () => {
   return (
-    <div className='footer bg-white/[13%] border-[1px] border-white/40 rounded-2xl brightness-75 backdrop-blur-lg w-[100%]  h-72'>
+    <div className='footer bg-white/[13%] border-[1px]  border-white/40 rounded-2xl brightness-75 backdrop-blur-lg w-[100%]  h-72'>
       <div className=' flex flex-row  justify-between bg-transparent w-[88%] h-[86%]   mx-auto'>
         <div className='bg-transparent justify-start mt-6'>
           <img className=' h-6 bg-transparent my-3 ' src={unnati} alt="" />

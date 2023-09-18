@@ -10,7 +10,7 @@ const Venue = () => {
         <div className='pb-[300px]'>
             <div className='text-white md:text-4xl sm:text-3xl text-2xl lg:text-5xl text-center font-semibold px-20 pt-24'><h1 className='heading'>TIMELINE</h1></div>
 
-            <div className='relative -left-[20px] sm:left-0' >
+            <div className='relative -left-[90px] sm:left-0' >
                 <div className='relative md:flex md:flex-row  flex-col justify-around mx-32 top-[80px] py-14'>
 
 
