@@ -9,7 +9,7 @@ const Prizes = () => {
 
 
   return (
-    <div className='prizes  bg-transparent '>
+    <div id='prize' className='prizes pt-11 md:pt-0  bg-transparent '>
 
       <div className='h-[80%] ' style={{ backgroundImage: `url(${gridImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'  }}>
 

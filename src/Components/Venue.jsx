@@ -17,17 +17,17 @@ const Venue = () => {
                     <div className='w-[280px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
                         <img src={Card1} alt="" />
                     </div>
-                    <div className='relative w-[280px]  h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
+                    <div className='relative w-[280px] top-20  bg-transparent pt-10 md:pt-0 md:pb-0 pb-10 h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
                     <img src={Card2} alt="" />
                         
                     </div>
-                    <div className='w-[280px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
+                    <div className='relative w-[280px]  h-[300px] top-48 md:top-0 bg-transparent   my-4 backdrop-blur-md rounded-2xl'>
                         <img src={Card3} alt="" />
                     </div>
                 </div>
             </div>
 
-            <div className='top-[180px] bg-gradient-to-r relative mx-auto  w-[60%] md:w-[40%] lg:w-[25%] h-14 rounded-xl'>
+            <div className='top-[320px] md:top-[180px] bg-gradient-to-r relative mx-auto  w-[60%] md:w-[40%] lg:w-[25%] h-14 rounded-xl'>
                 <img src={Manekshaw} alt="" />
             </div>
         </div>

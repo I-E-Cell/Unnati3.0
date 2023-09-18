@@ -4,7 +4,7 @@ import rulebook from '../assets/Rulebook.png'
 
 const About = () => {
   return (
-    <>
+     <div id='rule'>
     <div className='text-white lg:text-5xl px-20 md:text-4xl sm:text-3xl text-2xl font-semibold text-center pt-24 py-8'> <h1 className='heading'> RULEBOOK</h1></div>
     <div className=' justify-evenly flex p-6   lg:flex-row flex-col gap-4  '>
       
@@ -40,7 +40,7 @@ const About = () => {
             <img className='relative my-auto' src={rulebook} alt="" />
         </div>
     </div>
-    </>
+    </div>
   )
 }
 
