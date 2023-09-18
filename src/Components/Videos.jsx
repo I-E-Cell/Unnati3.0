@@ -3,7 +3,7 @@ import React from 'react'
 
 const Videos = () => {
   return (
-    <div className=' my-20 relative   md:left-0'>
+    <div className=' my-20 mx-3 relative  margin-left: 0.7em;  md:left-0'>
       <div className=' text-white lg:text-5xl md:text-4xl sm:text-3xl px-20 text-center font-semibold   text-2xl my-8'> <h1 className='heading'>Unnati Moments</h1></div>
       <div className='flex justify-center gap-4 flex-col lg:flex-row '>
         <div className='relative left-3 md:left-0 shadoww w-[22em]  md:w-[37em] rounded-2xl h-[16em] md:h-[20em] bg-white/10'>
