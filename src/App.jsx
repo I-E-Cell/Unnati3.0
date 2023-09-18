@@ -11,6 +11,7 @@ import Photos from "./Components/Photos";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
+import Thankyou from "./Components/Thankyou";
 
 
 
@@ -37,6 +38,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/Thankyou" element={<Thankyou/>} />
         <Route path="/form" element={<Form />} />
       </Routes>
     </Router>

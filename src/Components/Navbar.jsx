@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300 ' href="#rule">Rules</a>
 
 
-                    <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300' href="">FAQ</a>
+                    <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300' href="#faq">FAQ</a>
 
                     <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300' href="https://www.aitecell.in/" target='_blank'>Visit I&E Cell</a>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                         <a className='p-4 text-white  bg-transparent px-5 border-gray-600' href="#rule">Rules<br /><hr className='w-[90%]  rounded-xl my-2  mx-auto' /><br /></a>
 
 
-                        <a className='p-4 text-white bg-transparent px-5  border-gray-600' href="">FAQ<br /><hr className='w-[90%]  rounded-xl my-2  mx-auto' /><br /></a>
+                        <a className='p-4 text-white bg-transparent px-5  border-gray-600' href="#faq">FAQ<br /><hr className='w-[90%]  rounded-xl my-2  mx-auto' /><br /></a>
 
                         <a className='p-4 text-white  bg-transparent px-5 border-gray-600' href="https://www.aitecell.in/" target='_blank'>Visit I&E Cell<br /><hr className='w-[90%]  rounded-xl my-2 mx-auto' /><br /></a>
                         <Link to='/form'>
