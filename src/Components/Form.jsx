@@ -1,62 +1,20 @@
-import React,{useState} from "react";
-import { submitForm } from '../services/apiService';
+import React from "react";
+
 
 const Form = () => {
-    const [formData, setFormData] = useState({
-        team_name: '',
-        Leader_name: '',
-        Leader_branch: '',
-        floating_email: '',
-        floating_number: '',
-        is_girl_member: false,
-        is_interbranch: false,
-        number_of_members: '',
-        member1_name: '',
-        member1_branch_and_reg: '',
-        member1_email: '',
-        member1_whatsapp_no: '',
-        member2_name: '',
-        member2_branch_and_reg: '',
-        member2_email: '',
-        member2_whatsapp_no: '',
-      });
-    
-      const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        setFormData({
-          ...formData,
-          [name]: type === 'checkbox' ? checked : value,
-        });
-      };
-      const [formSubmitted, setFormSubmitted] = useState(false);
-
+ 
 
     
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-          const response = await submitForm(formData); 
-          console.log(response);
-          
-          setFormSubmitted(true);
-        } catch (error) {
-          
-          console.error('Form submission error:', error);
-        }
-      };
   return (
     <div className="">
-         {formSubmitted ? (
-      <div className="text-green-500">Form submitted successfully!</div>
-    ) : (
-      <form className=" p-[15%] justify-center items-center" onSubmit={handleSubmit}>
+        
+      <form className=" p-[15%] justify-center items-center"  action="https://docs.google.com/forms/d/e/1FAIpQLSfQEOreQ8ousjMHgBPLtI_5RLdkTaqnpPKdgpW9XP8UEw-Qzg/formResponse"
+        method="post">
         <div class=" relative z-0  mb-6 group">
           <input
             type="text"
-            name="team_name"
-            id="team_name"
-            value={formData.team_name}
-            onChange={handleChange}
+            name="entry.1691384505"
+            
             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -71,10 +29,8 @@ const Form = () => {
         <div class="relative z-0 w-full mb-6 group">
           <input
             type="text"
-            name="Leader_name"
-            id="Leader_name"
-            value={formData.Leader_name}
-            onChange={handleChange}
+            name="entry.726096153"
+          
             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -89,10 +45,8 @@ const Form = () => {
         <div class="relative z-0 w-full mb-6 group">
           <input
             type="text"
-            name="Leader_branch"
-            id="Leader_branch"
-            value={formData.Leader_branch}
-            onChange={handleChange}
+            name="entry.2040920002"
+           
             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -101,16 +55,14 @@ const Form = () => {
             for="Leader_branch"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
-            Leader Branch
+            Leader Branch & reg no.
           </label>
         </div>
         <div class="relative z-0 w-full mb-6 group">
           <input
             type="email"
-            name="floating_email"
-            id="floating_email"
-            value={formData.floating_email}
-            onChange={handleChange}
+            name="entry.557198355"
+            
             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -119,16 +71,14 @@ const Form = () => {
             for="floating_email"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
-            Team Leader email
+            Team Leader's Email
           </label>
         </div>
         <div class="relative z-0 w-full mb-6 group">
           <input
             type="number"
-            name="floating_number"
-            id="floating_number"
-            value={formData.floating_number}
-            onChange={handleChange}
+            name="entry.489662266"
+           
             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -137,69 +87,54 @@ const Form = () => {
             for="floating_number"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
-            Team Leader WhatsApp No.
+            Team Leader's WhatsApp No.
           </label>
         </div>
         <div className="flex flex-row justify-between">
-          <div class="flex items-center mb-4 ">
-            <input
-              id="default-checkbox"
-              type="checkbox"
-              checked={formData.is_girl_member} 
-              onChange={handleChange}
-              
-              class="w-4 h-4 text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-            />
-            <label
-              for="default-checkbox"
-              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-            >
-              Is Girl member in team?
-            </label>
-          </div>
-          <div class="flex items-center mb-4">
-            <input
-              
-              id="checked-checkbox"
-              type="checkbox"
-              checked={formData.is_interbarnch} 
-              onChange={handleChange}
-              class="w-4 h-4 text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-            />
-            <label
-              for="checked-checkbox"
-              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-            >
-              Is team Interbranch?
-            </label>
-          </div>
-          <div class="relative z-0 mb-6 group">
-  <select
-    id="dropdown"
-    value={formData.number_of_members} 
-    onChange={handleChange}
-    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-    required
-  >
-    <option value="" disabled selected>No of Member in Team </option>
-    <option value="option1">2</option>
-    <option value="option2">3</option>
-  
-  </select>
-  
-</div>
+        <div class="flex items-center mb-4">
+    <input
+      type="checkbox"
+      id="default-checkbox"
+      name="entry.1381489214"
+      
+     
+      value="Yes"
+      class="w-4 h-4 text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+    />
+    <label
+      htmlFor="default-checkbox"
+      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+    >
+      Is Girl member in team?
+    </label>
+  </div>
+  <div class="flex items-center mb-4">
+    <input
+      type="checkbox"
+      id="checked-checkbox"
+      name="entry.967415398"
+     
+      value="Yes"
+      class="w-4 h-4 text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+    />
+    <label
+      htmlFor="checked-checkbox"
+      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+    >
+      Is team Interbranch?
+    </label>
+  </div>
+         
 
 
           
         </div>
         <div class="grid md:grid-cols-2 md:gap-6">
-  <div class="relative z-0 w-full mb-6 group">
+        <div class="relative z-0 w-full mb-6 group">
     <input
       type="text"
-      name="member1_name" // Change the name to match the field
-      id="member1_name"
-      value={formData.member1_name}
-      onChange={handleChange}
+      name="entry.1832005843"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
       required
@@ -208,16 +143,30 @@ const Form = () => {
       for="member1_name"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 1 Name
+      No of Members in Team (2 or 3)
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="text"
-      name="member1_branch_and_reg" // Change the name to match the field
-      id="member1_branch_and_reg"
-      value={formData.member1_branch_and_reg}
-      onChange={handleChange}
+      name="entry.136115397"
+      
+      class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+      placeholder=" "
+      required
+    />
+    <label
+      for="member1_name"
+      class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+    >
+      Member1 Name
+    </label>
+  </div>
+  <div class="relative z-0 w-full mb-6 group">
+    <input
+      type="text"
+      name="entry.1545223072"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
       required
@@ -226,16 +175,14 @@ const Form = () => {
       for="member1_branch_and_reg"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 1 Branch and Reg Number
+      Member1 Branch & Reg no.
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="email"
-      name="member1_email" // Change the name to match the field
-      id="member1_email"
-      value={formData.member1_email}
-      onChange={handleChange}
+      name="entry.1433453350"
+     
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
       required
@@ -244,16 +191,14 @@ const Form = () => {
       for="member1_email"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 1 Email
+      Member1 Email ID
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="number"
-      name="member1_whatsapp_no" // Change the name to match the field
-      id="member1_whatsapp_no"
-      value={formData.member1_whatsapp_no}
-      onChange={handleChange}
+      name="entry.1063303273"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
       required
@@ -262,7 +207,7 @@ const Form = () => {
       for="member1_whatsapp_no"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 1 WhatsApp No.
+      Member1 WhatsApp No.
     </label>
   </div>
 </div>
@@ -271,10 +216,8 @@ const Form = () => {
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="text"
-      name="member2_name" // Change the name to match the field
-      id="member2_name"
-      value={formData.member2_name}
-      onChange={handleChange}
+      name="entry.716255763"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
    
@@ -283,16 +226,14 @@ const Form = () => {
       for="member2_name"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 2 Name
+      Member2 Name
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="text"
-      name="member2_branch_and_reg" // Change the name to match the field
-      id="member2_branch_and_reg"
-      value={formData.member2_branch_and_reg}
-      onChange={handleChange}
+      name="entry.286792978"
+     
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
       
@@ -301,16 +242,14 @@ const Form = () => {
       for="member2_branch_and_reg"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 2 Branch and Reg Number
+      Member2 Branch & Reg no.
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="email"
-      name="member2_email" // Change the name to match the field
-      id="member2_email"
-      value={formData.member2_email}
-      onChange={handleChange}
+      name="entry.1290188647"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
    
@@ -319,16 +258,14 @@ const Form = () => {
       for="member2_email"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 2 Email
+      Member2 Email ID
     </label>
   </div>
   <div class="relative z-0 w-full mb-6 group">
     <input
       type="number"
-      name="member2_whatsapp_no" // Change the name to match the field
-      id="member2_whatsapp_no"
-      value={formData.member2_whatsapp_no}
-      onChange={handleChange}
+      name="entry.1628070215"
+      
       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
       placeholder=" "
    
@@ -337,7 +274,7 @@ const Form = () => {
       for="member2_whatsapp_no"
       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
     >
-      Member 2 WhatsApp No.
+      Member2 WhatsApp No.
     </label>
   </div>
 </div>
@@ -350,7 +287,7 @@ const Form = () => {
           Submit
         </button>
       </form>
-       )}
+      
     </div>
   );
 };

@@ -7,7 +7,9 @@ import Counter from "./Components/Counter";
 import About from "./Components/About";
 import Videos from "./Components/Videos";
 import Photos from "./Components/Photos";
-
+import Faq from "./Components/Faq";
+import Footer from "./Components/Footer";
+import Form from "./Components/Form";
 
 
 
@@ -22,6 +24,9 @@ function App() {
      <Prizes />
      <Videos />
      <Photos />
+     <Form/>
+     <Faq/>
+     <Footer/>
      
  
     </div>
