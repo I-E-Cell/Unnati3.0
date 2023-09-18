@@ -9,7 +9,7 @@ const Prizes = () => {
 
 
   return (
-    <div className='prizes mt-32 bg-transparent '>
+    <div className='prizes  bg-transparent '>
 
       <div className='h-[80%] ' style={{ backgroundImage: `url(${gridImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'  }}>
 
@@ -26,11 +26,11 @@ const Prizes = () => {
             <div className='text-white bg-transparent'>
               <h3 className='bg-transparent' >2ND PRIZE</h3>
               <br />
-              <h3 className='bg-transparent'>₹5000</h3>
+              <h3 className='bg-transparent text-xl font-light'>₹5000</h3>
               <br />
 
-              <h5 className='  max-w-[250px] bg-transparent'>
-                Invitation to next Industry Visit by ECell
+              <h5 className='  max-w-[260px] bg-transparent'>
+                Invitation to next Industry Visit by I&ECell.
                 Styled Bottles and lots of goodies
                 Certificate of achievement
               </h5>
@@ -46,11 +46,11 @@ const Prizes = () => {
             <div className='text-white bg-transparent'>
               <h3 className='bg-transparent'>1ST PRIZE</h3>
               <br />
-              <h3 className='bg-transparent'>₹7000</h3>
+              <h3 className='bg-transparent text-xl font-light'>₹7000</h3>
               <br />
 
-              <h5 className='  max-w-[250px] bg-transparent'>
-                Invitation to next Industry Visit by ECell
+              <h5 className='  max-w-[260px] bg-transparent'>
+                Invitation to next Industry Visit by I&ECell.
                 Styled Bottles and lots of goodies
                 Certificate of achievement
               </h5>
@@ -66,11 +66,11 @@ const Prizes = () => {
             <div className='text-white bg-transparent'>
               <h3 className='bg-transparent'>3RD PRIZE</h3>
               <br />
-              <h3 className='bg-transparent'>₹3000</h3>
+              <h3 className='bg-transparent text-xl font-light'>₹3000</h3>
               <br />
 
-              <h5 className='  max-w-[250px] bg-transparent'>
-                Invitation to next Industry Visit by ECell
+              <h5 className='  max-w-[260px] bg-transparent'>
+                Invitation to next Industry Visit by I&ECell.
                 Styled Bottles and lots of goodies
                 Certificate of achievement
               </h5>

@@ -7,7 +7,7 @@ import unnati4 from '../assets/unnati4-min.jpg'
 
 const Photos = () => {
   return (
-    <div className='my-32 relative left-6 md:left-0 overflow-hidden'>
+    <div className='my-3 relative left-6 md:left-0 overflow-hidden'>
       <div className=' text-white lg:text-5xl md:text-4xl sm:text-3xl px-20 text-center font-semibold  text-2xl my-8'> <h1 className='heading'>Image Gallery</h1></div>
         <div className='flex justify-center gap-4 flex-col lg:flex-row '>
             <div className='overflow:hidden shadoww w-[22em]   md:w-[37em] rounded-2xl h-[16em] md:h-[20em] bg-white/10'>

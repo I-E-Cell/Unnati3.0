@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 </div>
                 <Link to='/form'>
-                <button className='bg-white/30  rounded-xl h-10 w-32 my-auto text-white hidden md:block'>Register Now!</button>
+                <button className='bg-white/30  rounded-xl relative  h-10 w-32 my-3 text-white hidden md:block'>Register Now!</button>
                 </Link>
                 <div onClick={haldleNav} className='block md:hidden my-auto'>
                     {!nav ? <AiOutlineClose size={20} color='#906ED6' /> : <AiOutlineMenu size={20} color='#906ED6' />}
