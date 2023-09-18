@@ -107,7 +107,7 @@ const Home = () => {
               Register Now!
             </button>
           </Link>
-          <a target='_blank' href="https://drive.google.com/file/d/1DX2MrxH-_tqpSer4QMBP43bcXJ78R52G/view?usp=drivesdk"><button  className='bg-white/30  border-[1.5px] border-white/30 rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Brochure</button></a>
+          <a target='_blank' href="https://drive.google.com/file/d/1DX2MrxH-_tqpSer4QMBP43bcXJ78R52G/view?usp=drivesdk"><button  className='bg-white/30  border-[1.5px] border-white/30 rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Rulebook</button></a>
         </div>
       </div>
     </div>
