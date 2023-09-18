@@ -39,11 +39,11 @@ const Faq = () => {
   return (
     <div id='faq' className="container mx-auto  p-4">
        <div className=' text-white lg:text-5xl md:text-4xl sm:text-3xl px-20 text-center font-semibold pb-6  text-2xl my-1'> <h1 className='heading'>Frequently Asked Questions</h1></div>
-      <div className="grid  md:mx-14 my-8 pb-9 mx-0   grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid  md:mx-14 my-8 pb-9 mx-0  grid-cols-1 sm:grid-cols-2 gap-4">
         {questions.map((q, index) => (
           <div
             key={index}
-            className=" p-4 rounded shadow-md cursor-pointer text-white"
+            className=" p-4 shadow-md cursor-pointer  border-[1px] rounded-xl border-white/40 text-white"
             onClick={() => toggleQuestion(index)}
           >
             <h2 className="text-xl font-semibold">{q.question}</h2>

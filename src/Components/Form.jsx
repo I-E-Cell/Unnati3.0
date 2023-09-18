@@ -8,9 +8,10 @@ const Form = () => {
     
   return (
     <div className="">
-      <Navbar/>
+       
+       <div className='text-white lg:text-5xl mx-auto justify-center text-center md:text-4xl sm:text-3xl text-2xl pt-2 shadow-2xl font-semibold  bg-transparent'><h1 className='heading bg-transparent'>FILL IN YOUR DETAILS</h1></div>
         
-      <form className=" p-[15%] justify-center items-center"  action="https://docs.google.com/forms/d/e/1FAIpQLSca4V977ujqRyG5NqUXSD22nAPlJz8kQOfTMiQ3S59GWeiTdA/formResponse"
+      <form className=" p-[5%] justify-center items-center"  action="https://docs.google.com/forms/d/e/1FAIpQLSca4V977ujqRyG5NqUXSD22nAPlJz8kQOfTMiQ3S59GWeiTdA/formResponse"
         method="POST">
         <div class=" relative z-0  mb-6 group">
           <input
@@ -108,7 +109,7 @@ const Form = () => {
             No of Members in Team (2 or 3)
           </label>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row gap-5">
         <div class="flex items-center mb-4">
     <input
       type="checkbox"

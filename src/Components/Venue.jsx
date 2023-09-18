@@ -1,7 +1,7 @@
 import React from 'react'
-import Card1 from '../assets/Card1.svg'
-import Card2 from '../assets/Card2.svg'
-import Card3 from '../assets/Card3.svg'
+import Card1 from '../assets/Card1n.svg'
+import Card2 from '../assets/Card2n.svg'
+import Card3 from '../assets/Card3n.svg'
 import Manekshaw from '../assets/Manekshaw.svg'
 
 

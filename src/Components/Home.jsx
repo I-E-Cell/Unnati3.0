@@ -47,8 +47,8 @@ const Home = () => {
 
                 </div>
                 <div className='flex flex-col md:flex-row my-9 mx-16  md:mx-0   sm: gap-5 md:justify-center relative top-[-140px]'>
-                <Link to='/form'><button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white  '>Register Now!</button></Link>
-                <button className='bg-white/30  rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Broschure</button>
+                <Link to='/form'><button className='bg-white/30 border-[1.5px] border-white/30  rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white  '>Register Now!</button></Link>
+                 <a target='_blank' href="https://drive.google.com/file/d/1DX2MrxH-_tqpSer4QMBP43bcXJ78R52G/view?usp=drivesdk"><button  className='bg-white/30  border-[1.5px] border-white/30 rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Brochure</button></a>
                 </div>
             </div>
           
