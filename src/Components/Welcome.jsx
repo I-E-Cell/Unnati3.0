@@ -1,7 +1,7 @@
 import React from "react";
 // If you have a common Navbar component
 
-const Response = () => {
+const Welcome = () => {
   return (
     <div className=" text-white min-h-screen">
       {/* If you have a common Navbar component */}
@@ -22,4 +22,4 @@ const Response = () => {
   );
 };
 
-export default Response;
+export default Welcome;

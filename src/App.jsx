@@ -11,7 +11,7 @@ import Photos from "./Components/Photos";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
-import Response from "./Components/response";
+import Welcome from "./Components/Welcome";
 
 
 
@@ -38,7 +38,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/Response" element={<Response/>} />
+        <Route path="/Welcome" element={<Welcome />} />
+       
         <Route path="/form" element={<Form />} />
       </Routes>
     </Router>

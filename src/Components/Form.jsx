@@ -19,7 +19,7 @@ const Form = () => {
   // Check if the form has been submitted, and if so, redirect to the thank you page.
   if (submitted) {
     // Redirect the user to the thank you page.
-    window.location.href = "./Response"; // Replace '/thank-you' with the actual URL of your thank you page.
+    window.location.href = "./Welcome"; // Replace '/thank-you' with the actual URL of your thank you page.
     return null; // Return null to prevent rendering the form after submission.
   }
 
