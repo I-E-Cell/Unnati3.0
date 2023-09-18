@@ -15,7 +15,7 @@ const Videos = () => {
                     <img className='relative top-[14em] bg-transparent w-[13%] ' src={playbtn} alt="" />
                 </div> */}
         </div>
-        <div className='shadoww w-[22em] md:left-0 h-[16em] left-3 md:left-0 relative   md:w-[30em] rounded-2xl md:h-[20em] bg-white/10'>
+        <div className='shadoww w-[22em] md:left-0 h-[16em] left-3 relative   md:w-[30em] rounded-2xl md:h-[20em] bg-white/10'>
           <div className='w-[95%] h-[93%]  mx-auto my-3 rounded-2xl bg-transparent z-5'>
             <iframe  className='h-[100%] rounded-2xl w-[100%]' src="https://www.youtube.com/embed/_JXinigw2mM" title="UNNATI 2.0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
