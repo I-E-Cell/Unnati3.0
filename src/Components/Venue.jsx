@@ -17,7 +17,7 @@ const Venue = () => {
                     <div className='w-[280px]  h-[300px]   my-4 backdrop-blur-md rounded-2xl'>
                         <img src={Card1} alt="" />
                     </div>
-                    <div className='relative w-[280px] top-20  bg-transparent pt-10 md:pt-0 md:pb-0 pb-10 h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
+                    <div className='relative w-[210px] left-9 md:left-0 top-20  bg-transparent pt-10 md:pt-0 md:pb-0 pb-10 h-[300px]  my-4  md:top-[-100px]  backdrop-blur-md rounded-2xl'>
                     <img src={Card2} alt="" />
                         
                     </div>

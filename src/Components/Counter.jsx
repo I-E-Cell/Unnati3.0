@@ -84,7 +84,7 @@ const Counter = () => {
                     +<motion.span className='relative    bg-transparent  text-3xl' ref={projectCount} whileInView={animationProjectCount}>0</motion.span>
                 </div>
                 <div className='relative text-sm mx-auto bg-transparent top-7 text-centre'>
-                    <h3 className='text-lg  font-thin bg-transparent top-6'>Finalists</h3>
+                    <h3 className='text-lg  font-thin bg-transparent top-6'>Finalist Teams</h3>
                 </div>
             </div>
 
