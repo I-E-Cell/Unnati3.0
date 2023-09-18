@@ -20,10 +20,10 @@ function LandingPage() {
     <div>
       <Navbar />
       <Home />
+      <Counter />
       
       <Venue />
       <Prizes />
-      <Counter />
       <About />
       <Videos />
       <Photos />
