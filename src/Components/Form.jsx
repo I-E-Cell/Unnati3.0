@@ -123,7 +123,7 @@ const Form = () => {
     />
     <label
       htmlFor="default-checkbox"
-      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+      class="ml-2 text-sm font-medium text-gray-400 dark:text-gray-300"
     >
       Is Girl member in team?
     </label>
@@ -139,7 +139,7 @@ const Form = () => {
     />
     <label
       htmlFor="checked-checkbox"
-      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+      class="ml-2 text-sm font-medium text-gray-400 dark:text-gray-300"
     >
       Is team Interbranch?
     </label>
@@ -295,7 +295,7 @@ const Form = () => {
             value="Team A"
             className="text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
           />
-          <label htmlFor="teamA" className="text-sm font-medium text-gray-900 dark:text-gray-300">
+          <label htmlFor="teamA" className="text-sm font-medium text-gray-400 dark:text-gray-300">
             Team A
           </label>
           
@@ -306,7 +306,7 @@ const Form = () => {
             value="Team B"
             className="text-blue-600 bg-gray-700 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
           />
-          <label htmlFor="teamB" className="text-sm font-medium text-gray-900 dark:text-gray-300">
+          <label htmlFor="teamB" className="text-sm font-medium text-gray-400 dark:text-gray-300">
             Team B
           </label>
         </div>
