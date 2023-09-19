@@ -22,7 +22,7 @@ const About = () => {
 
               </li>
               <li className='bg-transparent py-3 font-light'>
-              The participants are requested to make their own teams of at least 1- 3 members. We expect good co-operation from you guys since this is done to promote interaction among you.
+              The participants are requested to make their own teams of at least 2-3 members. We expect good co-operation from you guys since this is done to promote interaction among you.
               </li>
               <li className='bg-transparent py-3 font-light'>The teams will be divided into batches of two teams, each receiving a company  with similar business interests to represent. (Example:- Uber and Ola, Boat and JBL, Swiggy and Zomato, etc.)</li>
                <li className='bg-transparent py-3 font-light'>
