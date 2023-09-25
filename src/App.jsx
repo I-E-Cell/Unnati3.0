@@ -11,6 +11,7 @@ import Photos from "./Components/Photos";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
+import End from "./Components/End";
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
        
         <Route path="/form" element={<Form />} />
+        <Route path="/end" element={<End />} />
       </Routes>
     </Router>
   );

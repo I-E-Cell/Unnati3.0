@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
                 </div>
-                <Link to='/form'>
+                <Link to='/end'>
                     <button className='bg-white/30  rounded-xl relative  h-10 w-32 my-3 text-white hidden md:block'>Register Now!</button>
                 </Link>
                 <div onClick={haldleNav} className='block md:hidden my-auto'>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a className='p-4 text-white bg-transparent px-5  border-gray-600' href="#faq">FAQ<br /><hr className='w-[90%]  rounded-xl my-2  mx-auto' /><br /></a>
 
                         <a className='p-4 text-white  bg-transparent px-5 border-gray-600' href="https://www.aitecell.in/" target='_blank'>Visit I&E Cell<br /><hr className='w-[90%]  rounded-xl my-2 mx-auto' /><br /></a>
-                        <Link to='/form'>
+                        <Link to='/end'>
                         <div className='bg-transparent px-3'>
                             
                                 <button className='bg-white/30 rounded-xl   h-10 w-32 my-auto text-white'>Register Now!</button>
