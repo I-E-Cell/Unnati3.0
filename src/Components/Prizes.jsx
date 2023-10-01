@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React from 'react'
 import second from '../assets/second.png'
 import first from '../assets/first.png'

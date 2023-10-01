@@ -1,3 +1,6 @@
+// ------------------------------component----------------------------------//
+
+
 import React from 'react'
 // import playbtn from '../assets/playbtn.svg'
 

@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React from 'react'
 import unnati from '../assets/Unnati1-min.jpg'
 import unnati2 from '../assets/unnati2-min.jpg'

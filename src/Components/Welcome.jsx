@@ -1,3 +1,6 @@
+// ------------------------------component----------------------------------//
+
+
 import React from "react";
 // If you have a common Navbar component
 

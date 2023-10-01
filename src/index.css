@@ -24,6 +24,7 @@
     filter: drop-shadow(0 0 55px #12E7D3);
   }
 }
+/* // ------------------------------component----------------------------------// */
 
 .glow {
   animation: glowAnimation 0.3s infinite alternate;

@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React from 'react'
 import unnati from '../assets/unnatim.svg'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart } from "react-icons/fa";

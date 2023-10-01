@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React, { useRef } from 'react'
 import { animate, motion } from "framer-motion";
 

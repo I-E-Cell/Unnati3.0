@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React, { useState } from 'react';
 import unnati from "../assets/unnatim.svg";
 import { Link } from 'react-router-dom';

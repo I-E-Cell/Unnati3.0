@@ -1,3 +1,6 @@
+// ------------------------------component----------------------------------//
+
+
 import React from 'react'
 import unnati from '../assets/poster.png'
 import rulebook from '../assets/Rulebook.png'

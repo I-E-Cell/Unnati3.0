@@ -1,3 +1,5 @@
+// ------------------------------component----------------------------------//
+
 import React from 'react'
 import Card1 from '../assets/Card1n.svg'
 import Card2 from '../assets/Card2n.svg'
