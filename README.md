@@ -44,7 +44,11 @@ How to Contribute :<br />
         * git add .<br />
         * git commit -m "some message"<br />
         * git push -u origin main<br /><br /><br /><br />
-3. Make a pull request. <br />
+3. Make a pull request. <br /><br /><br /><br />
+![Group 3508 (2)](https://github.com/I-E-Cell/Unnati3.0/assets/120267687/c88b4e1e-7a34-43a0-ab83-388c919f52dc)
+
+
+<br /><br /><br /><br /><br />
 4. Wait for it for getting merged.<br />
 <br />
 Happy Contributing 🌟✨
