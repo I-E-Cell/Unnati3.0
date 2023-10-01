@@ -34,7 +34,8 @@ Show your creativity and do tag I&E Cell, AIT on LinkedIN to let us know about y
 How to Contribute :<br />
 1.Create an issue. Issue can be a bug report or a feature.<br />
 <br /><br /><br />
-![Group 3511](https://github.com/I-E-Cell/Unnati3.0/assets/120267687/0a6e3b11-6d32-47e0-9175-09263570069f)
+  
+  ![Group 3511](https://github.com/I-E-Cell/Unnati3.0/assets/120267687/ace48808-0f4f-4cfe-98a4-74d5911313ff)
 
 <br /><br /><br /> 
 2. Make changes and push them.<br />
