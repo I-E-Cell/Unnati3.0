@@ -67,7 +67,7 @@ const Home = () => {
                                         alt=''
                                     />
                                     <img
-                                        className={`relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ${glowingIndex === 5 ? 'glow' : ''
+                                        className={`relative bg-transparent  mr-10 h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ${glowingIndex === 5 ? 'glow' : ''
                                             }`}
                                         src={i}
                                         alt=''
@@ -76,7 +76,7 @@ const Home = () => {
                                 </div>
                                 <div className='flex gap-4 sm:mt-9 md:mt-0 relative top-4 md:top-0 mx-auto'>
                                     <img
-                                        className={`relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ml-8 ${glowingIndex === 6 ? 'glow' : ''
+                                        className={`relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3]  ${glowingIndex === 6 ? 'glow' : ''
                                             }`}
                                         src={three}
                                         alt=''
