@@ -14,6 +14,7 @@ import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
 import End from "./Components/End";
+import Winners from "./Components/Winners";
 
 
 
@@ -27,6 +28,7 @@ function LandingPage() {
       
       <Venue />
       <Prizes />
+      <Winners />
       <About />
       <Videos />
       <Photos />
