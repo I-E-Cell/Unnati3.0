@@ -34,8 +34,8 @@ const Home = () => {
                 <div className='flex flex-col'>
                     <div className='relative flex bg-transparent justify-center py-[220px] md:py-[210px] md:gap-5 sm:gap-2 gap-1'>
                         <div className='flex flex-col'>
-                            <div className='flex flex-col relative mx-5 md:flex-row'>
-                                <div className='flex gap-2 md:gap-4 mx-auto relative '>
+                            <div className='flex flex-col relative mx-8 md:flex-row'>
+                                <div className='flex gap-3 left-4 md:left-0 md:gap-4  mx-auto relative '>
                                     <img
                                         className={`relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ${glowingIndex === 0 ? 'glow' : ''
                                             }`}
