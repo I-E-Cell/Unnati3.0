@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='md:w-[27em] w-[21em] sm:w-[24em] mx-auto '>
+        <div className='md:w-[27em] w-[21em] sm:w-[24em] mx-auto rounded-2xl overflow-hidden '>
             <img className='relative my-auto' src={rulebook} alt="" />
         </div>
     </div>
