@@ -32,10 +32,10 @@ const Home = () => {
             </div>
             <div className='pt-20 z-0'>
                 <div className='flex flex-col'>
-                    <div className='relative flex bg-transparent justify-center py-[220px] md:py-[210px] gap-2 sm:gap-5'>
+                    <div className='relative flex bg-transparent justify-center py-[220px] md:py-[210px] md:gap-5 sm:gap-2'>
                         <div className='flex flex-col'>
-                            <div className='flex flex-col md:flex-row'>
-                                <div className='flex gap-4'>
+                            <div className='flex flex-col relative mx-8 md:flex-row'>
+                                <div className='flex gap-4 mx-auto relative '>
                                     <img
                                         className={`relative bg-transparent h-[56px] sm:h-[80px] lg:h-[150px] md:h-[110px] my-auto shadow-[#12E7D3] ${glowingIndex === 0 ? 'glow' : ''
                                             }`}
@@ -103,13 +103,13 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className='flex flex-col md:flex-row my-9 mx-16 md:mx-0 sm:gap-5 md:justify-center relative top-[-140px]'>
+                <div className='flex text-center flex-col md:flex-row my-9 mx-auto md:mx-0 sm:gap-5 md:justify-center relative top-[-140px]'>
                     <Link to='/end'>
-                        <button className='bg-white/30 border-white/30 border-[1.5px]   rounded-xl h-12 mx-auto md:mx-0 mb-4 w-64 my-auto text-white  '>
+                        <button className='bg-white/30 border-white/30 border-[1.5px] relative   rounded-xl h-12 mx-auto md:mx-0 mb-4 w-64 my-auto text-white  '>
                             Register Now!
                         </button>
                     </Link>
-                    <a target='_blank' href="https://drive.google.com/file/d/1DX2MrxH-_tqpSer4QMBP43bcXJ78R52G/view?usp=drivesdk"><button className='bg-white/30  border-[1.5px] border-white/30 rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Rulebook</button></a>
+                    <a target='_blank' href="https://drive.google.com/file/d/1DX2MrxH-_tqpSer4QMBP43bcXJ78R52G/view?usp=drivesdk"><button className='bg-white/30 relative border-[1.5px] border-white/30 rounded-xl h-12 mx-auto md:mx-0  w-64 my-auto text-white '>Download Rulebook</button></a>
                 </div>
             </div>
         </div>
